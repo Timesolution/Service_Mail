@@ -1,0 +1,50 @@
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Service_Mail.exe.config
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Service_Mail.exe
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Service_Mail.pdb
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\EntityFramework.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Estetica Api.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Gestion Api.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\System.Configuration.ConfigurationManager.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\System.Security.AccessControl.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\System.Security.Permissions.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\System.Security.Principal.Windows.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Task_Api.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\LinqToExcel.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\WSAFIPFE.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\DocumentFormat.OpenXml.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Planario_Api.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Ionic.Zip.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\itextsharp.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Modula_Api.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\SMS_Notification.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Report_Api.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Newtonsoft.Json.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Remotion.Data.Linq.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Microsoft.ReportViewer.Common.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Microsoft.SqlServer.Types.dll
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\EntityFramework.xml
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Estetica Api.pdb
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Estetica Api.dll.config
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Gestion Api.pdb
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Gestion Api.dll.config
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\System.Configuration.ConfigurationManager.xml
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\System.Security.AccessControl.xml
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\System.Security.Permissions.xml
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\System.Security.Principal.Windows.xml
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\LinqToExcel.xml
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\WSAFIPFE.dll.config
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\DocumentFormat.OpenXml.xml
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\itextsharp.xml
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Release\Newtonsoft.Json.xml
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\obj\Release\Service_Mail.ProjectInstaller.resources
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\obj\Release\Service_Mail.csproj.GenerateResource.cache
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\obj\Release\Service_Mail.csproj.CoreCompileInputs.cache
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\obj\Release\Service_Mail.csproj.CopyComplete
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\obj\Release\Service_Mail.exe
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\obj\Release\Service_Mail.pdb
+C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\obj\Release\Service_Mail.csprojAssemblyReference.cache
