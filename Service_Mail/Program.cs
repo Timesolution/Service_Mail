@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Service_Mail.Negocio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.ServiceProcess;
@@ -14,6 +15,10 @@ namespace Service_Mail
         /// </summary>
         static void Main()
         {
+            //Test
+            //Service servicio = new Service();
+            //servicio.Working();
+
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
             {

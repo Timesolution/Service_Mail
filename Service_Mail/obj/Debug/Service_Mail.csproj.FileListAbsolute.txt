@@ -47,3 +47,61 @@ C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\obj\Deb
 C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\obj\Debug\Service_Mail.csproj.GenerateResource.cache
 C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Desarrollador\Documents\Repositorios\Service_Mail1\Service_Mail\bin\Debug\EntityFramework.SqlServer.xml
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Service_Mail.exe.config
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Service_Mail.exe
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Service_Mail.pdb
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\EntityFramework.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\EntityFramework.SqlServer.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Gestion Api.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\System.Security.AccessControl.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\System.Security.Permissions.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\System.Security.Principal.Windows.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Task_Api.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\LinqToExcel.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\WSAFIPFE.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\DocumentFormat.OpenXml.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Planario_Api.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Ionic.Zip.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\itextsharp.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Modula_Api.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\SMS_Notification.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Report_Api.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Newtonsoft.Json.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Remotion.Data.Linq.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\EntityFramework.xml
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\EntityFramework.SqlServer.xml
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Estetica Api.pdb
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Estetica Api.dll.config
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Gestion Api.pdb
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Gestion Api.dll.config
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\System.Security.AccessControl.xml
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\System.Security.Permissions.xml
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\System.Security.Principal.Windows.xml
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\LinqToExcel.xml
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\WSAFIPFE.dll.config
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\DocumentFormat.OpenXml.xml
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\itextsharp.xml
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Newtonsoft.Json.xml
+C:\Repos\Service_Mail\Service_Mail\obj\Debug\Service_Mail.csprojAssemblyReference.cache
+C:\Repos\Service_Mail\Service_Mail\obj\Debug\Service_Mail.ProjectInstaller.resources
+C:\Repos\Service_Mail\Service_Mail\obj\Debug\Service_Mail.csproj.GenerateResource.cache
+C:\Repos\Service_Mail\Service_Mail\obj\Debug\Service_Mail.csproj.CoreCompileInputs.cache
+C:\Repos\Service_Mail\Service_Mail\obj\Debug\Service_Mail.csproj.CopyComplete
+C:\Repos\Service_Mail\Service_Mail\obj\Debug\Service_Mail.exe
+C:\Repos\Service_Mail\Service_Mail\obj\Debug\Service_Mail.pdb
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Estetica Api.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Google.GData.Spreadsheets.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Google.GData.Client.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\MySql.Data.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Google.Apis.Calendar.v3.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Google.GData.Extensions.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Google.Apis.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\Google.Apis.Core.dll
+C:\Repos\Service_Mail\Service_Mail\obj\Debug\Service_Mail.exe.config

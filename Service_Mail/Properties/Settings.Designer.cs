@@ -31,6 +31,8 @@ namespace Service_Mail.Properties {
                 return ((global::System.DateTime)(this["Hora_Correr"]));
             }
         }
+
+
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -40,7 +42,18 @@ namespace Service_Mail.Properties {
                 return ((string)(this["Path_Logo"]));
             }
         }
-        
+
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\Desarrollador\\Documents")]
+        public string NombreEmpresa
+        {
+            get
+            {
+                return ((string)(this["NombreEmpresa"]));
+            }
+        }
+
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("https://bioesteticaestetica.gestionsolution.com.ar/Formularios/Clientes/Confirmar" +

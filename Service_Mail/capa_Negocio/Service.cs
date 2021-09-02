@@ -13,10 +13,16 @@ namespace Service_Mail.Negocio
 {
     public class Service
     {
+
+
+
         public void Working()
         {
             try
             {
+
+              
+
                 Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("en-US");
 
                 Log.Instance.EscribirEnLog(DateTime.Now + " INFO: Inicio de correr tareas");
@@ -25,11 +31,13 @@ namespace Service_Mail.Negocio
                 {
                     DateTime fechaActual = DateTime.Now;
                     DateTime fechaCorrer = Settings.Default.Hora_Correr;
+                    Gestion_Api.Controladores.ControladorSMS controladorSMS = new Gestion_Api.Controladores.ControladorSMS();
+
 
                     if (fechaActual.Hour == fechaCorrer.Hour &&
                         fechaActual.Minute == fechaCorrer.Minute)
                     {
-
+                     
                         int dias = 3;
 
                         Log.Instance.EscribirEnLog(DateTime.Now + " INFO: Busco la configuracion de dias");
@@ -43,10 +51,10 @@ namespace Service_Mail.Negocio
 
                         Log.Instance.EscribirEnLog(DateTime.Now + " INFO: Encuentro la configuracion de dias: " + dias);
 
-                        Gestion_Api.Controladores.ControladorSMS controladorSMS = new Gestion_Api.Controladores.ControladorSMS();
                         Estetica_Api.Controladores.ControladorAgenda controladorAgenda = new Estetica_Api.Controladores.ControladorAgenda();
 
                         Log.Instance.EscribirEnLog(DateTime.Now + " INFO: Busco lo agendado");
+
 
                         var agendas = controladorAgenda.ObtenerAgendasEnDias(dias);
 
@@ -71,25 +79,31 @@ namespace Service_Mail.Negocio
 
                                 if (!string.IsNullOrEmpty(configuracion.EnviarSMSRecordatorio))
                                 {
-                                    string[] celular = agenda.Propietarios.Celular.Split('-');
-                                    string numero = celular[1];
-                                    string codArea = celular[0];
-
-                                    string telefono = "+549" + numero;
-
-                                    int enviadoSMS = controladorSMS.enviarSMS(telefono, $"Recordatorio de turno: { agenda.Fecha?.ToString("dd/MM/yyyy") } - { agenda.TiposEvento.Descripcion } - { agenda.Profesionales.NombreProfesional } { configuracion.NombreFantasiaSMS }", -1);
-                                    if (enviadoSMS == 1)
+                                    if (agenda.Propietarios != null && !String.IsNullOrEmpty(agenda.Propietarios.Celular))
                                     {
-                                        Log.Instance.EscribirEnLog(DateTime.Now + " INFO: Se envio correctamente el SMS");
-                                    }
-                                    else
-                                    {
-                                        Log.Instance.EscribirEnLog(DateTime.Now + " INFO: El SMS no se envio correctamente");
+                                        string[] celular = agenda.Propietarios.Celular.Split('-');
+
+                                        if (celular.Length == 2 && !String.IsNullOrEmpty(agenda.Propietarios.Celular))
+                                        {
+                                            string numero = celular[1];
+                                            string codArea = celular[0];
+
+                                            string telefono = "+549" + numero;
+
+                                            int enviadoSMS = controladorSMS.enviarSMS(telefono, $"Recordatorio de turno: { agenda.Fecha?.ToString("dd/MM/yyyy") + " "  + agenda.HoraDesde.ToString() }  - { agenda.TiposEvento.Descripcion } - { agenda.Profesionales.NombreProfesional } { configuracion.NombreFantasiaSMS }", -1);
+                                            if (enviadoSMS == 1)
+                                            {
+                                                Log.Instance.EscribirEnLog(DateTime.Now + " INFO: Se envio correctamente el SMS");
+                                            }
+                                            else
+                                            {
+                                                Log.Instance.EscribirEnLog(DateTime.Now + " INFO: El SMS no se envio correctamente");
+                                            }
+                                        }
+
                                     }
                                 }
-
                             }
-
                         }
 
                         //espero un minuto
