@@ -41,7 +41,7 @@ namespace Service_Mail
             // serviceInstaller1
             // 
             this.serviceInstaller1.Description = "Lee la DB de Estetica y Gestion, envia mails con los proximos turnos.";
-            this.serviceInstaller1.ServiceName = "ServicioMailSMSRecordatorioSomology";
+            this.serviceInstaller1.ServiceName = "ServicioMailSMSRecordatorioBelser";
             this.serviceInstaller1.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
             // 
             // ProjectInstaller

@@ -97,4 +97,5 @@ C:\Repos\Service_Mail\Service_Mail\bin\Release\Estetica Api.dll
 C:\Repos\Service_Mail\Service_Mail\bin\Release\Task_Api.dll
 C:\Repos\Service_Mail\Service_Mail\bin\Release\Estetica Api.pdb
 C:\Repos\Service_Mail\Service_Mail\bin\Release\Estetica Api.dll.config
-C:\Repos\Service_Mail\Service_Mail\obj\Release\Service_Mail.csprojAssemblyReference.cache
+C:\Repos\Service_Mail\Service_Mail\bin\Release\RestSharp.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Release\RestSharp.xml

@@ -83,7 +83,7 @@ namespace Service_Mail.Negocio
                                     {
                                         string[] celular = agenda.Propietarios.Celular.Split('-');
 
-                                        if (celular.Length == 2 && !String.IsNullOrEmpty(agenda.Propietarios.Celular))
+                                        if (celular.Length == 2 && !String.IsNullOrEmpty(agenda.Propietarios.Celular) && celular[1].Length == 10)
                                         {
                                             string numero = celular[1];
                                             string codArea = celular[0];
@@ -91,6 +91,35 @@ namespace Service_Mail.Negocio
                                             string telefono = "+549" + numero;
 
                                             int enviadoSMS = controladorSMS.enviarSMS(telefono, $"Recordatorio de turno: { agenda.Fecha?.ToString("dd/MM/yyyy") + " "  + agenda.HoraDesde.ToString() }  - { agenda.TiposEvento.Descripcion } - { agenda.Profesionales.NombreProfesional } { configuracion.NombreFantasiaSMS }", -1);
+                                            if (enviadoSMS == 1)
+                                            {
+                                                Log.Instance.EscribirEnLog(DateTime.Now + " INFO: Se envio correctamente el SMS");
+                                            }
+                                            else
+                                            {
+                                                Log.Instance.EscribirEnLog(DateTime.Now + " INFO: El SMS no se envio correctamente");
+                                            }
+                                        }
+                                        else if(agenda.Propietarios.Celular.Length == 10)
+                                        {
+                                            string telefono = "+549" + agenda.Propietarios.Celular;
+
+                                            int enviadoSMS = controladorSMS.enviarSMS(telefono, $"Recordatorio de turno: { agenda.Fecha?.ToString("dd/MM/yyyy") + " " + agenda.HoraDesde.ToString() }  - { agenda.TiposEvento.Descripcion } - { agenda.Profesionales.NombreProfesional } { configuracion.NombreFantasiaSMS }", -1);
+                                            if (enviadoSMS == 1)
+                                            {
+                                                Log.Instance.EscribirEnLog(DateTime.Now + " INFO: Se envio correctamente el SMS");
+                                            }
+                                            else
+                                            {
+                                                Log.Instance.EscribirEnLog(DateTime.Now + " INFO: El SMS no se envio correctamente");
+                                            }
+
+                                        }
+                                        else if(agenda.Propietarios.Celular.Trim().Replace("-","").Replace(" ","").Length == 10)
+                                        {
+                                            string telefono = "+549" + agenda.Propietarios.Celular.Trim().Replace("-","").Replace(" ","");
+
+                                            int enviadoSMS = controladorSMS.enviarSMS(telefono, $"Recordatorio de turno: { agenda.Fecha?.ToString("dd/MM/yyyy") + " " + agenda.HoraDesde.ToString() }  - { agenda.TiposEvento.Descripcion } - { agenda.Profesionales.NombreProfesional } { configuracion.NombreFantasiaSMS }", -1);
                                             if (enviadoSMS == 1)
                                             {
                                                 Log.Instance.EscribirEnLog(DateTime.Now + " INFO: Se envio correctamente el SMS");

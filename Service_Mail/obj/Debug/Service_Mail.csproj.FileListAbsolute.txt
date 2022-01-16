@@ -105,3 +105,5 @@ C:\Repos\Service_Mail\Service_Mail\bin\Debug\Google.GData.Extensions.dll
 C:\Repos\Service_Mail\Service_Mail\bin\Debug\Google.Apis.dll
 C:\Repos\Service_Mail\Service_Mail\bin\Debug\Google.Apis.Core.dll
 C:\Repos\Service_Mail\Service_Mail\obj\Debug\Service_Mail.exe.config
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\RestSharp.dll
+C:\Repos\Service_Mail\Service_Mail\bin\Debug\RestSharp.xml
