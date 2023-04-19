@@ -49,6 +49,25 @@ namespace Service_Mail.Capa_Entidades
             }
         }
 
+        public void EscribirEnMsjLog(string message)
+        {
+            try
+            {
 
+                StreamWriter streamWriter = new StreamWriter(ConfigurationManager.AppSettings["RutaMensajeLog"], true);
+
+                streamWriter.WriteLine("[" + DateTime.Now.ToString("dd/MM/yyyy") + "]" + message);
+
+                streamWriter.Close();
+            }
+            catch (Exception ex)
+            {
+                StreamWriter streamWriter = new StreamWriter(ConfigurationManager.AppSettings["RutaLog"], true);
+
+                streamWriter.WriteLine("[" + DateTime.Now.ToString("dd/MM/yyyy") + "]" + "ERROR: Ocurrio un error en Log.EscribirEnLog().Excepcion: " + ex.Message);
+
+                streamWriter.Close();
+            }
+        }
     }
 }

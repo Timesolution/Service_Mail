@@ -15,9 +15,15 @@ namespace Service_Mail
         /// </summary>
         static void Main()
         {
-            //Test
+            //Test estetica
             //Service servicio = new Service();
             //servicio.Working();
+            //Test Mascotas agenda
+            //Service servicio = new Service();
+            //servicio.Working2();
+            //Test Mascotas Historiaclinica
+            //Service servicio = new Service();
+            //servicio.Working3();
 
             ServiceBase[] ServicesToRun;
             ServicesToRun = new ServiceBase[]
